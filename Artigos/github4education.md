@@ -1,0 +1,13 @@
+# (know = 0; While you is Studying; know++)
+
+O título é pra ser convidativo mesmo. Logo abaixo direito o porquê. Desde já, eu adianto que este artigo é um relato da minha experiencia.
+
+São 10:30 da manhã, de uma quarta-feira do dia 09 de fevereiro de 2022... Durante minha rotinha de trabalho como bolsista do "setor X" da universidade onde estudo. No momento estou no computador trabalhando em projeto de migração do servidor desde setor.
+
+Basicamente, o site do "setor X" possui um servidor que atualmente usa CentOS 7, e devido às novas políticas de TI da universidade, este SO entrará em desuso, e o novo SO a ser utilizado é o Ubuntu Server. Considerando que tenho trabalhado em um projeto de migração desde o ano passado, acabei ficando responsável por esse "projeto" de migração - na verdade eu me ofereci rsrsr. Basicamente preciso praparar um novo servidor com Ubuntu Server - e fazer a migração do site e de todo banco de dados.
+
+A príncipio tudo bem, o servidor não é grande, porém, o servidor utiliza Django, e como eu não sei muita coisa sobre Django tenho que fazer pesquisas frequentes para resolver os problemas que vão aparecendo. Uma dessas soluções, foi fazer um curso de Django na DIO.
+
+Foi durante a segunda aula "Ambiente e Hello World", que o Rafael Galleani citou o Pycharm como IDE para desenvolvimento Django. Eu que sou adepto de utilizar ferramentas "for Students", resolvi pesquisar se existe uma versão "Pycharm for Students". Para minha alegria não só existe, como descobri que o Github também possui. O mais incrível disso tudo é que estas ferramentas apontam outras ferramentas, e por mais banal que isso possa parecer para alguns, para mim isso é algo incrível!
+
+A moral da história que tento passar com este relato, é: enquanto você estiver estudando ou mesmo trabalhando em coisas que exigem que utilizemos nossa capacidade de resolver problemas, nós estaremos sempre aprendendo cada vez mais, e arrisco dizer que é até de forma exponencial. E detalhge: este "projeto" que venho trabalhando desde o ano passado, que surgiu mais como uma "brincadeira" - sério, minha chefe falou algo assim: pegue isso e se divirta, Nelis, vai ser uma experiência legal - foi um dos fatores que me permitiram conseguir um estágio na DATAPREV, como analista de softwares para Banco de Dados - enfâse no estágio, pois estou ainda bem...bem... bem no início. Talvez eu fale mais sobre como foi isso futuramente.
