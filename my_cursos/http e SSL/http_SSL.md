@@ -41,12 +41,43 @@
 ### Protocolo SSL
 > **S**ecure **S**ocket **L**ayer
 
-- Segurança para conexões TCP
+- **Segurança para conexões TCP**
   - Confidencialidade
   - Integridade
   - Autenticidade end-point
-  
 
+- **Qual é a importancia do SSL?**
+  - Prevenir ataques
+    - Cenário 1: Listening
+    - Cenário 2: Ataque ativo
+- **Operação - fases**
+  > Handshake\
+  > Key Derivation\
+  > Data transfer
+- **Estabelecer conexão TCP**
+    - TCP starts > TCP response > TCP confirmation
+  - Verificação de autenticidade
+    - SSL Hello
+    - Certification
+- **Envio da Master Secret Key**
+  - EMS
+  - EMS = `KB`+MS
+- **Transferência efetiva de dados**
+    > Record+Mac
+  - Segurança na comunicação - HTTP Over TCP
+  - Verificação da autenticidade por cetificados digitais `porta 443`
+
+- **LGPD - Lei Geral de Proteção de Dados**
+  > Não pode haver identificação da pessoa.
+  - O que a lei protege?
+    - Dados de ifentificação dos usuários
+    - Dados sensíveis
+    - Religião, etnia...
+  - Define o tratamento de dados
+    > Diversos tipos de operações
+    - Livre conssentimento
+    - Direitos do titular das informações
+    - Sansões aos que descumprem as regras
 
 ## API e Padrão REST
 
