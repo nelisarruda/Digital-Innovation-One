@@ -82,8 +82,20 @@
 ## API e Padrão REST
 
 ### O que é API?
+> Application Programming Interface
 
-### Propriedade de uma API
+- É uma coleção de métodos disponibilizados por um serviço para interação indireta. Seja essa interação realizada por, $\textcolor{orange}{Sistema} \Leftrightarrow \textcolor{orange}{Sistema}$, ou $\textcolor{orange}{Sistema}\Leftrightarrow \textcolor{green}{Usuário}$.
+
+<figure>
+  <figcaption>Fluxo de comunicação de uma API</figcaption>
+  <img id="flw01" alt="Fluxo de comunicação de uma API" src="./img/flx01.png">
+  
+  <figcaption>Analogia do fluxo de uma API</figcaption>
+  <img ig="exm01"alt="Analogia do fluxo de uma API" src="./img/exm01.png">
+</figure>
+
+
+#### Propriedade de uma API
 
 ### Padrão REST
 
@@ -96,3 +108,10 @@
 ## Conclusão do curso
 
 ### Certifique seu conhecimento
+
+## Fontes
+- DIO
+- Imagens:
+  - [Medium](https://medium.com/)
+
+$\listoffigures$

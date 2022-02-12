@@ -27,6 +27,4 @@ pip freeze
 ```
 
 
-
-
 - Caso tenha problema com execução de script no Windows, dê uma liga em: https://docs.microsoft.com/pt-br/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7
