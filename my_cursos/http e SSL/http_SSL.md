@@ -15,6 +15,10 @@
             - [Estender funcionalidades](#estender-funcionalidades)
             - [Segurança](#seguran%C3%A7a)
         - [Padrão REST](#padr%C3%A3o-rest)
+            - [HTTP:](#http)
+            - [Regras:](#regras)
+            - [Vantagem:](#vantagem)
+            - [Por que utilizar?](#por-que-utilizar)
         - [API HTTP-Java](#api-http-java)
         - [Estudo de caso, parte 1](#estudo-de-caso-parte-1)
         - [Estudo de caso, parte 2](#estudo-de-caso-parte-2)
@@ -129,11 +133,13 @@
   - java.math
 
 ### Propriedades de uma API
+
 #### Acesso de dados
 > Acesso aos dados do banco de dados do site ou servidor.
 
  A [API](#o-que-%C3%A9-api) recebe uma [$\textcolor{red}{query}$](../database/glossário.md#Query) do usuário/sistema e a envia para o site/servidor.
  Então o servidor executa a $\textcolor{red}{query}$ e emite uma resposta para o requisitante. A mensagem impressa pode conter, ou não, as informações solicitadas.
+
 #### Esconder complexidade
 - Acesso à dados:
   - Arquivos, Banco de dados,...
@@ -160,12 +166,14 @@
 > Uso de protocolos de segurança para proteção da aplicação/servidor e do usuário final.
 
 Há dados/funcionalidades que são necessários para o funcionamento da aplicação. Quem faz esse gerenciamento de segurança é uma API do SO, que questiona o usuário se ele permite, ou não, que aquela aplicação receba as permissões solicitadas. 
+
 ### Padrão REST
 
 ![figura03](https://arquivo.devmedia.com.br/artigos/Joel_Rodrigues/Guias/guia-aspnet-webapi-1.png)
 
 #### HTTP:
   - Comunicação entre API e Sistema
+
 #### Regras:
   - Arquitetura REST
   > Foi apresentada por Roy Fielding - 2000, e significa REpresetational State Tranfer[^1].
@@ -244,6 +252,7 @@ Há dados/funcionalidades que são necessários para o funcionamento da aplicaç
         </details>
 
     </details>
+
 #### Por que utilizar?
   >Padrão comumente adotado;\
   >Conversa bem com o protocolo HTTP;\
