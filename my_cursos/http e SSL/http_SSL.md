@@ -278,7 +278,7 @@ Há dados/funcionalidades que são necessários para o funcionamento da aplicaç
 - Cursos:
   - [DIO](https://web.dio.me/)
     - [Introdução ao HTTP/HTTPS](https://web.dio.me/course/introducao-ao-http-https)
-      - Prints = {}
+      - Prints = {01}
 - Imagens:
   - [Medium](https://medium.com/)
     - Figuras = {01, 02}
