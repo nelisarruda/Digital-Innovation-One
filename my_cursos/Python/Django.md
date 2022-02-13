@@ -6,6 +6,11 @@
 - Possui versão paga e gratuíta (Community)
 - https://www.jetbrains.com/pycharm/
 
+
+
+<details><summary>Código</summary>
+<p>
+
 ```py
 python -m pip install --upgrade pip
 
@@ -23,8 +28,9 @@ cd .\hello_django\
 
 pip freeze
 
-
 ```
+</p>
+</details>
 
 
 - Caso tenha problema com execução de script no Windows, dê uma liga em: https://docs.microsoft.com/pt-br/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7

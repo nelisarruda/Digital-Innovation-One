@@ -1,4 +1,28 @@
 # Introdução ao HTTP/HTTPS
+<!-- TOC -->
+
+- [Introdução ao HTTP/HTTPS](#introdu%C3%A7%C3%A3o-ao-httphttps)
+    - [Protocolo HTTP](#protocolo-http)
+        - [Conceitos básicos de segurança](#conceitos-b%C3%A1sicos-de-seguran%C3%A7a)
+            - [Criptografia por chave](#criptografia-por-chave)
+        - [Protocolo SSL](#protocolo-ssl)
+    - [API e Padrão REST](#api-e-padr%C3%A3o-rest)
+        - [O que é API?](#o-que-%C3%A9-api)
+            - [Utilidade](#utilidade)
+        - [Propriedades de uma API](#propriedades-de-uma-api)
+            - [Acesso de dados](#acesso-de-dados)
+            - [Esconder complexidade](#esconder-complexidade)
+            - [Estender funcionalidades](#estender-funcionalidades)
+            - [Segurança](#seguran%C3%A7a)
+        - [Padrão REST](#padr%C3%A3o-rest)
+        - [API HTTP-Java](#api-http-java)
+        - [Estudo de caso, parte 1](#estudo-de-caso-parte-1)
+        - [Estudo de caso, parte 2](#estudo-de-caso-parte-2)
+    - [Conclusão do curso](#conclus%C3%A3o-do-curso)
+        - [Certifique seu conhecimento](#certifique-seu-conhecimento)
+    - [Referências](#refer%C3%AAncias)
+
+<!-- /TOC -->
 
 ## Protocolo HTTP
 
@@ -140,10 +164,92 @@ Há dados/funcionalidades que são necessários para o funcionamento da aplicaç
 
 ![figura03](https://arquivo.devmedia.com.br/artigos/Joel_Rodrigues/Guias/guia-aspnet-webapi-1.png)
 
-- HTTP:
+#### HTTP:
   - Comunicação entre API e Sistema
-- Regras:
+#### Regras:
   - Arquitetura REST
+  > Foi apresentada por Roy Fielding - 2000, e significa REpresetational State Tranfer[^1].
+
+#### Vantagem:
+  - Independência da aplicação
+  - Usabilidade
+  - Mabeabilidade
+  - **<details><summary>Modelo</summary>**
+
+      - Cliente-server
+        - <details><summary>Front x Back:</summary>
+
+            ![Print01](https://i.imgur.com/Xku2RJJ.png)
+            > O lado do cliente se preocupa com interface, e o lgado do servidor com o armazenamento, por exemplo.
+          - Princípio da separação
+            - Portabilidade Interface do usuário
+          - Menos complexcidade
+            - Aumento da escalabilidade
+          - Organização dos Devs
+            - Simplifica os componentes dos servidores
+          </details>
+          
+      - <details><summary>Stateless</summary>
+      
+          - Request
+            - Fornecer completo entendimento para o servidor
+          - Visibilidade
+          - Confiabilidade
+          - Escalabilidade
+          
+          - Escolha - Tradeoff
+            - Repetição de dados
+            - Per-interaction overhead
+            - Performance da rexe x propiedades do REST
+
+        </details>
+      - <details><summary>Cache</summary>
+      
+          - Objetivo: aumentar eficiencia da rede
+          - Label Requests: Cacheable or non-cacheable
+          - Reduz latência e interação
+
+        </details>
+
+      - <details><summary>Uniform Interface</summary>
+      
+          - Diferencial: Ênfase de uma interface uniforme entre componentes
+          - Generalidade: Princípio de eng. de Software
+          - Arquitetura de multiplas restrições
+            - Identificação de recursos
+            - Manipulação de recursos
+              - Representações - ex: verbos HTTP
+            - Auto-descrição
+              - Processamento da informação
+          - HATEOAS: Hypermedia As The Engine Of Application State[^2].
+            > Ex: métodos HTTPS.
+
+        </details>
+      - <details><summary>Layered System</summary>
+      
+          - Composição hierárquica de camadas
+            - Encapsulamento
+            - Proteção de dados
+          - Latência e overhead de dados
+            - Compensado pelo uso de cache
+
+        </details>
+      - <details><summary>Code on Demand</summary>
+      
+          - Funcionalidade de clientes: applets ou scripts
+          - Simplificação
+            - Redução de fetures à serem pré-implementadas
+            - Sistema extensível x diminuição de visibilidade
+
+        </details>
+
+    </details>
+#### Por que utilizar?
+  >Padrão comumente adotado;\
+  >Conversa bem com o protocolo HTTP;\
+  >Permite criação de APIs mais eficientes;\
+  >Foco no desenvolvimento.
+
 ### API HTTP-Java
 
 ### Estudo de caso, parte 1
@@ -154,10 +260,16 @@ Há dados/funcionalidades que são necessários para o funcionamento da aplicaç
 
 ### Certifique seu conhecimento
 
-## Fontes
+## Referências
+[^1]: https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+[^2]: http://api/project.net/users/1
+
+
+
 - Cursos:
   - [DIO](https://web.dio.me/)
     - [Introdução ao HTTP/HTTPS](https://web.dio.me/course/introducao-ao-http-https)
+      - Prints = {}
 - Imagens:
   - [Medium](https://medium.com/)
     - Figuras = {01, 02}
@@ -165,3 +277,5 @@ Há dados/funcionalidades que são necessários para o funcionamento da aplicaç
     - Figuras = {03}
   - [Cequens](https://www.cequens.com/)
     - Figuras = {04, 05}
+
+
