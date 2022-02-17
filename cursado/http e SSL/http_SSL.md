@@ -1,30 +1,30 @@
 # Introdução ao HTTP/HTTPS
 <!-- TOC -->
 
-- [Introdução ao HTTP/HTTPS](#introdu%C3%A7%C3%A3o-ao-httphttps)
-    - [Protocolo HTTP](#protocolo-http)
-        - [Conceitos básicos de segurança](#conceitos-b%C3%A1sicos-de-seguran%C3%A7a)
-            - [Criptografia por chave](#criptografia-por-chave)
-        - [Protocolo SSL](#protocolo-ssl)
-    - [API e Padrão REST](#api-e-padr%C3%A3o-rest)
-        - [O que é API?](#o-que-%C3%A9-api)
-            - [Utilidade](#utilidade)
-        - [Propriedades de uma API](#propriedades-de-uma-api)
-            - [Acesso de dados](#acesso-de-dados)
-            - [Esconder complexidade](#esconder-complexidade)
-            - [Estender funcionalidades](#estender-funcionalidades)
-            - [Segurança](#seguran%C3%A7a)
-        - [Padrão REST](#padr%C3%A3o-rest)
-            - [HTTP:](#http)
-            - [Regras:](#regras)
-            - [Vantagem:](#vantagem)
-            - [Por que utilizar?](#por-que-utilizar)
-        - [API HTTP-Java](#api-http-java)
-        - [Estudo de caso, parte 1](#estudo-de-caso-parte-1)
-        - [Estudo de caso, parte 2](#estudo-de-caso-parte-2)
-    - [Conclusão do curso](#conclus%C3%A3o-do-curso)
-        - [Certifique seu conhecimento](#certifique-seu-conhecimento)
-    - [Referências](#refer%C3%AAncias)
+- [Introdução ao HTTP/HTTPS](#introdução-ao-httphttps)
+  - [Protocolo HTTP](#protocolo-http)
+    - [Conceitos básicos de segurança](#conceitos-básicos-de-segurança)
+      - [Criptografia por chave](#criptografia-por-chave)
+    - [Protocolo SSL](#protocolo-ssl)
+  - [API e Padrão REST](#api-e-padrão-rest)
+    - [O que é API?](#o-que-é-api)
+      - [Utilidade](#utilidade)
+    - [Propriedades de uma API](#propriedades-de-uma-api)
+      - [Acesso de dados](#acesso-de-dados)
+      - [Esconder complexidade](#esconder-complexidade)
+      - [Estender funcionalidades](#estender-funcionalidades)
+      - [Segurança](#segurança)
+    - [Padrão REST](#padrão-rest)
+      - [HTTP:](#http)
+      - [Regras:](#regras)
+      - [Vantagem:](#vantagem)
+      - [Por que utilizar?](#por-que-utilizar)
+    - [API HTTP-Java](#api-http-java)
+    - [Estudo de caso, parte 1](#estudo-de-caso-parte-1)
+    - [Estudo de caso, parte 2](#estudo-de-caso-parte-2)
+  - [Conclusão do curso](#conclusão-do-curso)
+    - [Certifique seu conhecimento](#certifique-seu-conhecimento)
+  - [Referências](#referências)
 
 <!-- /TOC -->
 
@@ -112,7 +112,7 @@
 ### O que é API?
 > Application Programming Interface
 
-- É uma coleção de métodos disponibilizados por um serviço para interação indireta. Seja essa interação realizada por, $\textcolor{orange}{Sistema} \Leftrightarrow \textcolor{orange}{Sistema}$, ou $\textcolor{orange}{Sistema}\Leftrightarrow \textcolor{green}{Usuário}$.
+- É uma coleção de métodos disponibilizados por um serviço para interação indireta. Seja essa interação realizada por, <span style="color:orange">Sistema</span> **<->** <span style="color:Orange">Sistema</span>, ou <span style="color:Orange">Sistema</span> **<->** <span style="color:green">Usuário</span>
 
 ![figura01 >](./img/flx01.png)
 ![figura02 <](./img/exm01.png)
@@ -137,8 +137,8 @@
 #### Acesso de dados
 > Acesso aos dados do banco de dados do site ou servidor.
 
- A [API](#o-que-%C3%A9-api) recebe uma [$\textcolor{red}{query}$](../database/glossário.md#Query) do usuário/sistema e a envia para o site/servidor.
- Então o servidor executa a $\textcolor{red}{query}$ e emite uma resposta para o requisitante. A mensagem impressa pode conter, ou não, as informações solicitadas.
+ A [API](#o-que-%C3%A9-api) recebe uma **[<span style="color:red">query</span>](../database/glossário.md#Query)** do usuário/sistema e a envia para o site/servidor.
+ Então o servidor executa a <span style="color:red">query</span> e emite uma resposta para o requisitante. A mensagem impressa pode conter, ou não, as informações solicitadas.
 
 #### Esconder complexidade
 - Acesso à dados:
@@ -159,7 +159,7 @@
   - Comunicação integrada
   ![figura04](https://www.cequens.com/hubfs/Imported_Blog_Media/What%20Are%20Communication%20APIs%20and%20Why%20Are%20They%20Needed-Rectangle-100-1.jpg)
 - Comunicação entre aplicativos
-  - Exemplo: Site $\leftrightarrow$ [API Google Maps](https://developers.google.com/maps/documentation?hl=pt-br)
+  - Exemplo: Site **<->** [API Google Maps](https://developers.google.com/maps/documentation?hl=pt-br)
   ![figura05](https://www.cequens.com/hubfs/Imported_Blog_Media/communication-apis-2-4.png)
 
 #### Segurança
