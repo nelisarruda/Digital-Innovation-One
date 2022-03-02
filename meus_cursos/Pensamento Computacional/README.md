@@ -61,8 +61,25 @@ O que é o Pensamento computacional?
 
 
 ### Habilidades complementares
+
+- **Raciocínio lógico:** pensamento estruturado.
+  - Indução: Fenômeno observado, por meio do experimento;
+  - Dedução: leis e teorias. Previsões, explicações;
+  - Abdução: Conclusão por meio da premissa, por meio de investigação e diganósticos.
+
+  ![img06](img/DIO_CS_PC_racio_logic.png)
+
 ## Aula 2: Pilares do Pensamento Computacional
 
+### Decomposição
+
+### Reconhecimento de padrões
+
+### Abstração
+
+### Algoritmos
+
 ## Aula 3: Estudos de Caso
+
 
 ## Certifique seu conhecimento
