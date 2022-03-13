@@ -1,0 +1,318 @@
+--- Histórico de ações do Linux ---
+
+    1  npm init -y && npx ts-init
+    2  sudo apt instam npm
+    3  sudo apt instam npm
+    4  sudo apt install npm
+    5  sudo install vitualvenv
+    6  sudo install vitualenv
+    7  pip install virtualenv
+    8  sudo apt install python3-pip
+    9  apt install apache2 -y
+   10  apt install apache -y
+   11  sudo apt install apache2 -y
+   12  pip install virtualenv
+   13  virtualenv _alpha5
+   14  sudo apt install python3-virtualenv
+   15  virtualenv _alpha5
+   16  ls
+   17  clear
+   18  python3 -m venv _alpha5
+   19  apt install python3.8-venv
+   20  sudo apt install python3.8-venv
+   21  pip install virtualenv
+   22  clear
+   23  source _alpha5/bin/activate
+   24  source /_alpha5/bin/activate
+   25  source _alpha5/bin/python3
+   26  clear
+   27  virtualenv _alpha5
+   28  pip install pip -U
+   29  pip install pipenv -U
+   30  pip install virtualenv -U
+   31  clear
+   32  pipenv sync --dev
+   33  virtualenv _alpha5
+   34  pip3 uninstall virtualenv
+   35  virtualenv my-python3
+   36  pip3 uninstall virtualenv
+   37  pip3 uninstall my-python3/
+   38  sudo rm -rf my-python3/
+   39  ls
+   40  sudo rm -rf _alpha5/
+   41  virtualenv _alpha5
+   42  clear
+   43  source /_alpha5/bin/activate
+   44  source /_alpha5/bin/activate
+   45  source _alpha5/bin/activate
+   46  clear
+   47  npm init -y && npx ts-init
+   48  npm i node-telegram-bot-api --save && npm i @types/node-telegram-bot-api -D
+   49  npm i wikipedia --save
+   50  npm fund
+   51  npm fund
+   52  npm run ts
+   53  exit
+   54  pip3 uninstall _alpha5/
+   55  pip3 uninstall _alpha5
+   56  pip uninstall _alpha5
+   57  venv uninstall _alpha5/
+   58  clear
+   59  sudo rm -rf _alpha5/
+   60  clear
+   61  virtualenv _alpha5
+   62  source _alpha5/bin/activate
+   63  $ pip install python-telegram-bot --upgrade
+   64  pip install python-telegram-bot --upgrade
+   65  $ pip install python-telegram-bot --upgrade
+   66  pip install python-telegram-bot --upgrade
+   67  telegram.bot
+   68  import telegram
+   69  ls
+   70  cd _alpha5/
+   71  ls
+   72  cd ..
+   73  telegram-bot-api --help
+   74  sudo apt-get update
+   75  sudo apt-get install make git zlib1g-dev libssl-dev gperf cmake clang-10 libc++-dev libc++abi-dev
+   76  git clone --recursive https://github.com/tdlib/telegram-bot-api.git
+   77  cd telegram-bot-api
+   78  rm -rf build
+   79  mkdir build
+   80  cd build
+   81  CXXFLAGS="-stdlib=libc++" CC=/usr/bin/clang-10 CXX=/usr/bin/clang++-10 cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=.. ..
+   82  cmake --build . --target install
+   83  cd ../..
+   84  ls -l telegram-bot-api/bin/telegram-bot-api*
+   85  telegram-bot-api --help
+   86  telegram-bot-api --help
+   87  file://host/path
+   88  ls
+   89  cd meus_cursos/
+   90  ls
+   91  cd ja
+   92  cd Java
+   93  ls
+   94  cd IEDJ
+   95  ls
+   96  ls
+   97  javadoc -d javadoc/ -sourcepath src/ -subpackages com.dio
+   98  sudo apt install openjdk-11-jdk-headless 
+   99  javadoc -d javadoc/ -sourcepath src/ -subpackages com.dio
+  100  javadoc -d javadoc/ -sourcepath src/ -subpackages com.dio
+  101  ls
+  102  cd D:\Nelis\Repositorios\Digital-Innovation-One\meus_cursos\Linux\Diretorios e Comandos Essenciais
+  103  cd /mnt/d/Nelis/Repositorios/Digital-Innovation-One/meus_cursos/Linux\Diretorios e Comandos Essenciais
+  104  cd ..
+  105  cd ..
+  106  cd ..
+  107  ls
+  108  cd d
+  109  ls
+  110  cd nelis.junior/
+  111  ls
+  112  cd ..
+  113  cd nelis/Repositorios/
+  114  ls
+  115  clear
+  116  ls
+  117  cd Digital-Innovation-One\meus_cursos\Linux\Diretorios e Comandos Essenciais
+  118  cd Digital-Innovation-One/meus_cursos/Linux/Diretorios\ e\ Comandos\ Essenciais/
+  119  ls
+  120  mkdir exercicios | cd exercicios | nano lista_nomes.txt
+  121  mkdir exercicios | cd exercicios
+  122  ls
+  123  cd exercicios/
+  124  nano lista_nomes.txt
+  125  cat 10 lista_nomes.txt
+  126  head lista_nomes.txt 
+  127  tail lista_nomes.txt 
+  128  touch lista_nomes.txt 
+  129  ls
+  130  cat lista_nomes.txt 
+  131  cat setambro 2020 > setembro.txt
+  132  cal setambro 2020 > setembro.txt
+  133  cal setembro 2020 > setembro.txt
+  134  cal
+  135  sudo apt-get install language-pack-gnome-pt language-pack-pt-base
+  136  cal
+  137  sudo dpkg-reconfigure locales
+  138  cal
+  139  sudo dpkg-reconfigure keyboard-configuration
+  140  sudo dpkg-reconfigure keyboard-configuration
+  141  cal
+  142  cal --help
+  143  cal -help
+  144  help --cal
+  145  cal
+  146  cal september 2020 > september.txt
+  147  cat september
+  148  ls
+  149  rm setembro.txt
+  150  cat september.txt >> lista_nomes.txt
+  151  cat lista_nomes.txt 
+  152  less lista_nomes.txt
+  153  pwd lista_nomes.txt
+  154  find ~ -name semtembro.txt
+  155  find ~ -name september.txt
+  156  find ~ -name September.txt
+  157  ls
+  158  find  -name september.txt
+  159  find . -name september.txt
+  160  find ~ -name september.txt
+  161  file lista_nomes.txt
+  162  whatis ls
+  163  mv lista_nomes.txt arquivo.txt
+  164  ls
+  165  clear
+  166  rm -r*
+  167  rm -r *
+  168  ls
+  169  sudo rm -r *
+  170  ls
+  171  cd
+  172  cat /proc/cpuinfo | more
+  173  clear
+  174  cat /proc/meminfo | more
+  175  lspci
+  176  lsusb | more
+  177  arch
+  178  clear
+  179  uname
+  180  uname -r
+  181  uname -V
+  182  uname -v
+  183  uname -m
+  184  uname -n
+  185  uname -u
+  186  free
+  187  du -h ~
+  188  du -h ~ | more
+  189  clear
+  190  cat /etc/passwd | more
+  191  uname -m
+  192  arch
+  193  cat /proc/cpuinfo
+  194  date
+  195  free
+  196  clear
+  197  ifconfig
+  198  sudo apt install net-tools
+  199  ifconfig
+  200  hostname
+  201  hostname -i
+  202  who
+  203  whoam
+  204  whoami
+  205  ping www.gloogle.com
+  206  ping gloogle.com.br
+  207  clear
+  208  dig ufrn.br
+  209  sudo apt install traceroute
+  210  traceroute google.com.br
+  211  traceroute ufrn.br
+  212  dig google.com.br +short
+  213  dig google.com.br
+  214  whois ufrn.br
+  215  sudo apt install whois
+  216  whois ufrn.br
+  217  whois grandlineadventure.com.br
+  218  finger
+  219  sudo apt install finger
+  220  finger ufrn.br
+  221  finger
+  222  touch aularedes.txt
+  223  ls
+  224  hostname -I
+  225  echo -e "---Informações sobre IP---\n" >> aularedes.txt
+  226  hostname -I >> aularedes.txt
+  227  hostname -i >> aularedes.txt
+  228  echo -e "---Informações sobre IP LOOPBACK ---\n" >> aularedes.txt
+  229  hostname -i >> aularedes.txt
+  230  cat aularedes.txt 
+  231  dig pudim.com.br
+  232  echo -e "---Informações sobre IP DIG Pudim ---\n" >> aularedes.txt
+  233  dig pudim.com.br >> aularedes.txt
+  234  w
+  235  echo -e "---Informações sobre IP Usuario logado ---\n" >> aularedes.txt
+  236  w >> aularedes.txt
+  237  echo -e "---Informações sobre IP: teste 6 pacotes ---\n" >> aularedes.txt
+  238  ping pudim.com.br -w 6 >> aularedes.txt
+  239  cat aularedes.txt 
+  240  echo -e "---Informações sobre IP: traceroute pudim.com.br ---\n" >> aularedes.txt
+  241  traceroute pudim.com.br >> aularedes.txt
+  242  ipconfig
+  243  ifconfig
+  244  echo -e "---Informações sobre IP: ifconfig ---\n" >> aularedes.txt
+  245  ifconfig >> aularedes.txt
+  246  cat aularedes.txt | more
+  247  history
+  248  pwd
+  249  hitory
+  250* history >> history.txt
+  251  touch history.txt
+  252  echo -e "--- Histórico de ações do Linux ---\n" >> history.txt
+  253  hitory >> history.txt
+  254  history >> history.txt
+    1  alias hh history
+    2  alias hh='history'
+    3  hh
+    4  alias trc='traceroute'
+    5  trc google.com.br
+    6  nl aularedes.txt
+    7  wc -l aularedes.txt
+    8  wc -w aularedes.txt
+    9  wc -m aularedes.txt 
+   10  ls
+   11  ls -F
+   12  ls -a
+   13  rm -r vazio.txt
+   14  touch vazio.txt
+   15  cmp aularedes.txt vazio.txt 
+   16  diff aularedes.txt vazio.txt 
+   17  nano vazio.txt
+   18  ca vazio.txt 
+   19  cat vazio.txt
+   20  clear
+   21  sort -n vazio.txt
+   22  last reboot
+   23  touch last_reboot.log | last reboot >> last_reboot.log
+   24  route -n
+   25  time trc google.com.br
+   26  touch trc.log | time trc google.com.br >> trc.log
+   27  touch trc.log
+   28  time trc google.com.br >> trc.log
+   29  echo -e "--- Registro: tempo de traceroute ---\n" >> trc.log
+   30  time trc google.com.br >> trc.log
+   31  uptime trc google.com.br >> trc.log
+   32  cowsay
+   33  sudo apt install cowsay
+   34  cowsay
+   35  cowsay "Linux é top"
+   36  touch cowsay.log
+   37  cowsay "Linux é top" >> cowsay.log
+   38  cowsay -d "Linux é ruim pra jogo" >> cowsay.log
+   39  cowsay -d "Linux é grátis!" >> cowsay.log
+   40  cowsay -f tux "Linux" >> cowsay.log
+   41  cat cowsay.log
+   42  cowsay -g "Linux é grátis!" >> cowsay.log
+   43  cat cowsay.log
+   44  cowsay -f vader "Linux" >> cowsay.log
+   45  cowsay -f vader-coala "Linux" >> cowsay.log
+   46  cat cowsay.log
+   47  cowsay -f dragon "Linux" >> cowsay.log
+   48  cat cowsay.log
+   49  xcowsay
+   50  sudo apt install xcowsay
+   51  xcowsay
+   52  sudo apt install xcowsay
+   53  sudo apt-get update
+   54  sudo apt-get upgrade
+   55  sudo apt-get full-upgrade
+   56  sudo apt autoclean
+   57  sudo apt autoremove
+   58  sudo apt install xcowsay
+   59  xcowsay
+   60  sudo apt install cmatrix
+   61  cmatrix
+   62  hh >> history.txt

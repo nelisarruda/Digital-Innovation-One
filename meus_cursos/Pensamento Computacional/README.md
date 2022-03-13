@@ -75,7 +75,81 @@ O que é o Pensamento computacional?
 
 ### Reconhecimento de padrões
 
+- Modelo base
+- Estrutura invariante
+- Repetição
+
+Ex: Coletar informações (METADADOS) -> Compressão -> Salvar dados no servidor;
+
+Ex2: Compressão de dados: transformação de dados de um mesmo grupo em vetores;
+
+#### Seres vivos x padrões
+- Porque deerminar padrões? É uma forma de generalizar, com objetivo de obter soluções para problemas diferentes.
+- Classificação de objetos
+  - Grau de similaridade
+  - Grupos conhecidos X objeto desconhecido
+  - Representação de atributos
+  - aprendizado
+  - Armazenar dados
+  - Regras de decisão
+
+
+(Extração de caracteristicas | Classificação de dados ) -> **Abordagem** -> DIFERENTES ( Métodos | Aplicações )
+
+#### Aplicações
+- Classificação de dados
+- Reconhecimento de imagem
+- Reconhecimento de fala
+- Análise de cenas
+- Classificação de documentos
+
+Estes são exemplos de aplicações utilizados em:
+- Machine Learning
+- Redes Neurais
+- Inteligência Artificial
 ### Abstração
+
+#### Generalização x Abstração
+
+> **Abstrair:** Analisar observando um ou os muitos aspectos que estão contidos num todo: abstrair os detalhes do tecido.[^1]
+
+> **Abstração:** Ação de abstrair, de analisar isoladamente um aspecto, contido num todo, sem ter em consideração sua relação com a realidade.[^2]
+
+> **Generalizar:** Fazer com que fique maior; aumentar a extensão de alguma coisa: generalizar uma teoria.[^3]
+
+> **Generalização:** [*Lógica*] Operação intelectual que consiste em comparar as qualidades comuns a uma classe de indivíduos, desprezando as suas diferenças e reunindo essas qualidades comuns numa só ideia, que as fixa e define.[^4]
+
+**Como classificar?**
+- Caracteristicas
+- Identificar pontos essenciais
+- Generalizar x detalhar
+
+Ao representar dados é necessário focar nos pontos essenciais de modo que deixe de lado os detalhes "dispensáveis".
+
+- Conceitos baseados em abstrações (*Python, Java, C++*):
+  - Merge sort
+  - Clusteting
+  - Busca binária
+- Estrutura de dados
+  - Arvore
+  - Lista
+  - Gráficos
+- Comunicação
+  - Broadcast
+  - Síncrona
+  - Assíncrona
+  - Paralela
+- Arquiteturas
+  - Servidor
+  - Ponto a Ponto
+  - Estrela
+  - Dock
+
+**Exemplos:** 
+Eu preciso limpar um terreno, por onde devo começar?
+- Classificação?
+- Distancias?
+- Ordem da limpeza
 
 ### Algoritmos
 
@@ -83,3 +157,13 @@ O que é o Pensamento computacional?
 
 
 ## Certifique seu conhecimento
+
+
+
+[^1]:https://www.dicio.com.br/abstrair/
+[^2]:https://www.dicio.com.br/abstracao/
+[^3]:https://www.dicio.com.br/generalizar/
+[^4]:https://www.dicio.com.br/generalizacao/
+[^5]:
+[^6]:
+[^7]:
