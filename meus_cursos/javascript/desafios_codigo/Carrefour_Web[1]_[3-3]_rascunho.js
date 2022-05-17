@@ -39,9 +39,9 @@ let idadeEmDias = 400;
 let qtdDias, qtdMeses, qtdAnos;
 
 
-qtdAnos = parseInt(idadeEmDias / 365);
-qtdMeses = parseInt((idadeEmDias % 365)/30);
-qtdDias = parseInt((idadeEmDias % 365) % 30);
+qtdAnos = idadeEmDias / 365;
+qtdMeses = (idadeEmDias % 365)/12;
+qtdDias = meses % 30;
 
 
 let resultado = (qtdAnos + " ano(s) " + '\n' + 
@@ -49,4 +49,3 @@ qtdMeses +" mes(es)" + '\n' +
 qtdDias + " dia(s)");
 
 console.log(resultado);
-

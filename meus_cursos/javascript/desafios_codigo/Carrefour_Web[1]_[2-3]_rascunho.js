@@ -32,36 +32,30 @@ Imprima o quociente q seguido pelo resto r da divisão de a por b, considerando 
 // a funcao gets e implementada dentro do sistema para ler as entradas(inputs) dos dados e a funcao print para imprimir a sa?da (output) de dados e j? pula uma linha ("\n")
 // Abaixo segue um exemplo de codigo que voce pode ou nao utilizar
 
-let line = gets().split(" ");
-const a = parseInt(line[0]);
-const b = parseInt(line[1]);
+let linhas = parseInt(gets());
 
-q = parseInt(a / b);
+//TODO: Complete os espaços em branco com uma solução possível para o problema.
 
-r = a - b * q;
+let limit = parseInt(gets());
 
-if (r < 0) {
-  r += Math.abs(b);
-  
-  q =         ;    //escreva sua lógica aqui
+for (let i = 1; i <= limit; i ) {
+  let X = (     );
+  let Y = (     );
+
+  print(      );
 }
-
-print(q + " " + r);
 
 */
 // ============================= codigo proprio =============================
-let line = gets().split(" ");
-const a = parseInt(line[0]);
-const b = parseInt(line[1]);
+let linhas = parseInt(gets());
 
-q = parseInt(a / b);
+//TODO: Complete os espaços em branco com uma solução possível para o problema.
 
-r = a - b * q;
+let limit = parseInt(gets());
 
-if (r < 0) {
-  r += Math.abs(b);
-  
-  q = (a - r) / b;    //escreva sua lógica aqui
+for (let i = 1; i <= limit; i++) {
+  let X = (i);
+  let Y = (Math.pow(i, 2));
+
+  print( X + " " + Y + " " + Math.pow(Y, 2));
 }
-
-print(q + " " + r);
